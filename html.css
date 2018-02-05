@@ -1,0 +1,83 @@
+* {
+		font-family: Avenir Light;
+		margin:0;
+	}
+
+	html {
+		min-width: 800px;
+	}
+
+	a {
+		text-decoration: none;
+		color: white;
+	}
+
+	a:visited {
+		color: white;
+	}
+
+	a:hover {
+		color: black;
+	}
+
+	.border {
+	height: 2px;
+	background-color: #a11616;
+	}
+
+	header {
+		background-color: white;
+		height: 200px 
+		color: gray;
+		text-align: center;
+		padding: 75px;
+	}
+
+	.logo {
+		float: left;
+		position: relative;
+		top:-60px;
+		left: 200px;
+	}
+
+	#navbar {
+		overflow: hidden;
+		float: right;
+		position: relative;
+		top:-5px;
+		right: 200px;
+	}
+
+	#navbar a {
+		display: inline-block;
+		padding: 0px 16px;
+		color: gray;
+		text-decoration: none;
+		text-align: center;
+		font-size: 12pt;
+	}
+
+	#navbar a:hover {
+		color: #a11616;
+	}
+
+	#navbar a.active {
+		color: #a11616;
+		text-decoration: none;
+	}
+
+	footer {
+		background-color: #a11616;
+		height: 50px;
+		color: white;
+		text-align: center;
+		font-size: 12pt;
+	}
+
+	#copyright {
+		position: relative;
+		top:15px;
+	}
+
+
+

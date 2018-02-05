@@ -1,95 +1,37 @@
 <!DOCTYPE html> 
 <html> 
 
+<link rel="stylesheet" type="html/css" href="html.css">
+
 <head> 
-	<title> Automotive Maintenance </title>
+	<title> Exauto | Home </title>
 	<meta charset="utf-8">
 </head>
-
-<!-- HTML --> 
-
-<style type="text/css">
-	* {
-		font-family: Avenir Light;
-		margin:0;
-	}
-
-	a {
-		text-decoration: none;
-		color: white;
-	}
-
-	a:visited {
-		color: white;
-	}
-
-	a:hover {
-		color: black;
-	}
-</style>
 
 <!-- HEADER & NAVIGATION -->
 
 <header>
+	<link rel="stylesheet" type="text/css" href="html.css">
 	<img src="logo.png" class="logo">
 	<div id="navbar"> 
 	<a href="index.html" class="active"> HOME </a> 
-	<a href="index.html"> ABOUT US </a> 
-	<a href="index.html"> SERVICES </a>
+	<a href="aboutus.html"> ABOUT US </a> 
+	<a href="services.html"> SERVICES </a>
 	<a href="index.html"> INSURANCE </a> 
-	<a href="index.html"> CONTACT </a> 
+	<a href="insurance.html"> CONTACT </a> 
 	</div>
 </header>
 
-<style type="text/css">
-	header {
-		background-color: white;
-		height: 200px 
-		color: gray;
-		text-align: center;
-		padding: 75px;
-	}
-
-	.logo {
-		float: left;
-		position: relative;
-		top:-60px;
-		left: 200px;
-	}
-
-	#navbar {
-		overflow: hidden;
-		float: right;
-		position: relative;
-		top:-5px;
-		right: 200px;
-	}
-
-	#navbar a {
-		display: inline-block;
-		padding: 0px 16px;
-		color: gray;
-		text-decoration: none;
-		text-align: center;
-		font-size: 12pt;
-	}
-
-	#navbar a:hover {
-		color: #a11616;
-	}
-
-	#navbar a.active {
-		color: #a11616;
-		text-decoration: none;
-	}
-</style>
+<div class="border"> 
+	<link rel="stylesheet" type="html/css" href="html.css">
+</div>
 
 <!-- BODY -->
 
 <body>
 	<link href="https://fonts.googleapis.com/css?family=Sonsie+One" rel="stylesheet">
 	
-	<div id="welcome">
+	<div id="welcome" style="color:#a11616">
 		<br>Exauto
 		<div id="subwelcome">
 			<b>Automotive Repair</b>
@@ -140,6 +82,9 @@
 		color: white;
 		height: 600px;
 		text-align: center;
+		background-attachment: fixed;
+  	  	background-position: center;
+   		background-repeat: no-repeat;
 	}
 
 	#subwelcome {
@@ -151,11 +96,13 @@
 
 	#info {
 		background-color: #a11616;
-		height: 135px;
+		height: 155px;
 		columns: 3;
 		column-gap: 40px;
 		text-align: center;
 		color: white;
+		padding-left: 200px;
+		padding-right: 200px;
 	}
 
 	#about {
@@ -203,21 +150,9 @@
 
 <!-- FOOTER -->
 
-<footer> 
-	<div id="copyright"> Copyright &copy 2018 Exauto - All Rights Reserved </div>
+<footer>
+	<link rel="stylesheet" type="html/css" href="html.css"> 
+	<div id="copyright"> Copyright &copy 2018 EXAUTO - All Rights Reserved </div>
 </footer>
 
-<style type="text/css">
-	footer {
-		background-color: #333333;
-		height: 50px;
-		color: white;
-		text-align: center;
-		font-size: 12pt;
-	}
-
-	#copyright {
-		position: relative;
-		top:15px;
-	}
-</style>
+</html>

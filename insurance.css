@@ -1,0 +1,12 @@
+h1 {
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.img {
+	padding-left: 200px;
+	padding-right: 200px;
+	width: 1046px;
+	height: auto;
+	padding-bottom: 50px;
+}

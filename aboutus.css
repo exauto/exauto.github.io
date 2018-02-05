@@ -1,0 +1,48 @@
+#body {
+	height: 700px;
+
+}
+
+h1 {
+	text-align:center;
+	text-transform: uppercase;
+}
+
+p {
+	text-align: center;
+	font-size: 15pt;
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+.mechanic {
+	padding-top: 40px;
+	height: 175px;
+	width: 175px;
+	position: relative;
+	left: 225px;
+}
+
+.mechanic1 {
+	padding-top: 40px;
+	height: 175px;
+	width: 175px;
+	position: relative;
+	left: 325px;
+}
+
+.mechanic2 {
+	padding-top: 40px;
+	height: 175px;
+	width: 175px;
+	position: relative;
+	left: 425px;
+}
+
+.mechanic3 {
+	padding-top: 40px;
+	height: 175px;
+	width: 175px;
+	position: relative;
+	left: 525px;
+}
