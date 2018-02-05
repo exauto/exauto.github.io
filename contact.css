@@ -1,0 +1,70 @@
+html {
+	height: 700px;
+}
+
+h1 {
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#form {
+	text-align: center;
+	margin-bottom: 50px;
+	margin-left: 200px;
+	margin-right: 200px;
+	height: 600px;
+	float: right;
+}
+
+input {
+	height: 40px;
+	width: 400px;
+	margin-bottom: 0px;
+	font-size: 20px;
+	text-align: center;
+}
+
+.message {
+	height: 300px;
+}
+
+.submit {
+	background-color: white;
+	border-color: #a11616;
+	border-style: solid;
+	padding:14px 28px;
+	position: relative;
+	margin-left: 975px;
+	top:-100px;
+	color:white;
+	font-size: 14pt;
+	text-align: center;
+	color:#a11616;
+}
+
+.submit:hover {
+	background-color: #a11616;
+	border-color: #a11616;
+	color:white;
+}
+
+p {
+	color: #a11616;
+	font-size: 14pt;
+	position: relative;
+	left: 450px;
+	top:-590px;
+}
+
+#info {
+	color: grey;
+	font-size: 12pt;
+	position: relative;
+	left: 450px;
+	top:-590px;
+	margin-bottom: 20px;
+}
+
+#all {
+	height: 700px;
+}
