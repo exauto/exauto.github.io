@@ -1,158 +1,149 @@
 <!DOCTYPE html> 
 <html> 
 
-<link rel="stylesheet" type="html/css" href="html.css">
-
 <head> 
-	<title> Exauto | Home </title>
+	<title> Automotive Maintenance </title>
 	<meta charset="utf-8">
 </head>
 
-<!-- HEADER & NAVIGATION -->
-
-<header>
-	<link rel="stylesheet" type="text/css" href="html.css">
-	<img src="logo.png" class="logo">
-	<div id="navbar"> 
-	<a href="index.html" class="active"> HOME </a> 
-	<a href="aboutus.html"> ABOUT US </a> 
-	<a href="services.html"> SERVICES </a>
-	<a href="insurance.html"> INSURANCE </a> 
-	<a href="contact.html"> CONTACT </a> 
-	</div>
-</header>
-
-<div class="border"> 
-	<link rel="stylesheet" type="html/css" href="html.css">
-</div>
-
-<!-- BODY -->
-
-<body>
-	<link href="https://fonts.googleapis.com/css?family=Sonsie+One" rel="stylesheet">
-	
-	<div id="welcome" style="color:#a11616">
-		<br>Exauto
-		<div id="subwelcome">
-			<b>Automotive Repair</b>
-		</div>
-	</div>
-
-	<div id="info"> 
-		<br><b>MECHANICS</b><br>
-		Fix your car with the best mechanics in town. Our certified mechanics use high quality techniques to ensure that your car will be repaired.
-		<br><br>
-		<b>CAR ACCESSORIES</b><br>
-		Fix your car with the best mechanics in town. Our certified mechanics use high quality techniques to ensure that your car will be repaired.
-		<br><br>
-		<b>BREAKDOWN SERVICES</b><br>
-		Fix your car with the best mechanics in town. Our certified mechanics use high quality techniques to ensure that your car will be repaired.
-	</div>
-
-	<div id="about"> 
-		<br>
-		<b>WE HAVE BUILT OUR BUSINESS KEEP OUR CUSTOMERS IN MIND</b>
-		<br> 
-		<img src="gpsicon.png" class="gpsicon">
-		<div id="gpsheader">
-			<br><b>LOCATION</b>
-		</div>
-		<div id="gpstext">
-			Our business is covenielty located for your ease of<br>access. Our shop is open 24/7, meaning that we<br>can fix your vehicle anytime. 
-		</div>
-		<img src="staricon.png" class="staricon">
-		<div id="starheader">
-			<br><b>PROFESSIONALLY QUALIFIED</b>
-		</div>
-		<div id="startext">
-			All of out mechanics are profesianlly qualified and certified.<br>This means that our mechanics will ensure that your<br>car will be safely repaired, using state-of-the-art techniques.  
-		</div>	
-	</div>
-</body>
+<!-- HTML --> 
 
 <style type="text/css">
+	* {
+		font-family: Avenir;
+		margin:0;
+	}
 
-	@import url('https://fonts.googleapis.com/css?family=Sonsie+One');
-
-	#welcome {
-		background-image:url(homebackgroundimage.jpg);
-		background-size:cover;
-		font-size: 100pt;
-		font-family: 'Sonsie One', cursive;
+	a {
+		text-decoration: none;
 		color: white;
-		height: 600px;
-		text-align: center;
-		background-attachment: fixed;
-  	  	background-position: center;
-   		background-repeat: no-repeat;
 	}
 
-	#subwelcome {
-		font-size: 20pt;
-		font-family: Avenir Light;
+	a:visited {
 		color: white;
-		text-align: center;
 	}
 
-	#info {
-		background-color: #a11616;
-		height: 155px;
-		columns: 3;
-		column-gap: 40px;
-		text-align: center;
-		color: white;
-		padding-left: 200px;
-		padding-right: 200px;
-	}
-
-	#about {
-		height: 675px;
-		background-color:  white;
-		text-align: center;
-		font-size: 25pt;
-	}
-
-	.gpsicon {
-		height: 50px;
-		width: 50px;
-		position: center;
-		padding-top: 50px;
-	}
-
-	#gpsheader {
-		text-align: center;
-		font-size: 18pt;
-	}
-
-	#gpstext {
-		text-align: center;
-		font-size: 15pt;
-	}
-
-	.staricon {
-		height: 50px;
-		width: 50px;
-		position: center;
-		top:100px;
-		padding-top:50px;
-	}
-
-	#starheader {
-		text-align: center;
-		font-size: 18pt;
-	}
-
-	#startext {
-		text-align: center;
-		font-size: 15pt;
+	a:hover {
+		color: black;
 	}
 </style>
 
-<!-- FOOTER -->
+<!-- HEADER & NAVIGATION 
 
-<footer>
-	<link rel="stylesheet" type="html/css" href="html.css"> 
-	<div id="copyright"> Copyright &copy 2018 EXAUTO - All Rights Reserved </div>
-</footer>
+<header>
+	Automotive Maintenence 
+	<div id="navbar"> 
+	<a href="index.html" class="active"> Home </a> 
+	<a href="index.html"> Services </a> 
+	<a href="index.html"> About </a>
+	<a href="index.html"> Contact </a> 
+	<a href="index.html"> Vehicles </a> 
+	</div>
+</header>
+
+<style type="text/css">
+	header {
+		/* background-image: url(headerimage.jpg);
+		background-size: contain; */
+		font-size: 40pt;
+		color: gray;
+		text-align: center;
+	}
+
+	#navbar {
+		overflow: hidden;
+	}
+
+	#navbar a {
+		display: inline-block;
+		padding: 0px 16px;
+		color: gray;
+		text-decoration: none;
+		text-align: center;
+		font-size: 15pt;
+	}
+
+	#navbar a:hover {
+		color: red;
+	}
+
+	#navbar a.active {
+		color: red;
+		text-decoration: none;
+	}
+</style>
+
+-->
+
+<!-- BODY -->
+
+<body> 
+	<div id="headertext"> <b>ROADS ARE MEANT<br>TO BE RIDDEN ON</b> </div>
+	<div id="subtext">BUT YOU CAN'T RIDE WITH A BROKEN VEHICLE</div>
+	<div id="subsubtext">REPAIR YOUR CAR NOW AT EXAUTO</div>
+	<button class="button button1" align="center"><a href="home.html">CONTINUE</a></button>
+</body> 
+
+<style type="text/css">
+	body {
+		min-width:550px;        
+   		width: auto !important; 
+  		background: url(backgroundimage.jpeg) no-repeat scroll center top transparent;
+  		background-size: cover;
+	}
+
+	#headertext {
+		position: relative;
+		top:150px;
+		font-size: 75pt;
+  		color: white;
+  		text-align: center;
+	}
+
+	#subtext {
+		position: relative;
+		top:175px;
+		font-size: 25pt;
+  		color: white;
+  		text-align: center;
+	}
+
+	#subsubtext {
+		position: relative;
+		top:200px;
+		font-size: 15pt;
+		color: white;
+		text-align: center;
+	}
+
+	.button {
+		position: absolute;
+		top:585px;
+		left:635px;
+		background-color: white;
+		border:none;
+		padding: 10px 26px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 14pt;
+		margin: 4px 2px;
+		-webkit-transition-duration: 0.4s; /* Safari */
+    	transition-duration: 0.4s;
+    	cursor: pointer;
+    	color: white;
+	}
+
+	.button1 {
+		background-color: transparent;
+		color: white;
+		border:2px solid white;
+	}
+
+	.button1:hover {
+		background-color: white;
+		color: black;
+	}
+</style>
 
 </html>
