@@ -1,6 +1,8 @@
 <!DOCTYPE html> 
 <html> 
 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <head> 
 	<title> Automotive Maintenance </title>
 	<meta charset="utf-8">
@@ -81,10 +83,17 @@
 	<div id="headertext"> <b>ROADS ARE MEANT<br>TO BE RIDDEN ON</b> </div>
 	<div id="subtext">BUT YOU CAN'T RIDE WITH A BROKEN VEHICLE</div>
 	<div id="subsubtext">REPAIR YOUR CAR NOW AT EXAUTO</div>
+	<div id="button">
 	<button class="button button1" align="center"><a href="home.html">CONTINUE</a></button>
+	</div>
 </body> 
 
 <style type="text/css">
+	
+	#button {
+		text-align: center;
+	}
+
 	body {
 		min-width:550px;        
    		width: auto !important; 
@@ -95,15 +104,16 @@
 	#headertext {
 		position: relative;
 		top:150px;
-		font-size: 75pt;
+		font-size: 9vw;
   		color: white;
   		text-align: center;
+
 	}
 
 	#subtext {
 		position: relative;
 		top:175px;
-		font-size: 25pt;
+		font-size: 3vw;
   		color: white;
   		text-align: center;
 	}
@@ -111,19 +121,17 @@
 	#subsubtext {
 		position: relative;
 		top:200px;
-		font-size: 15pt;
+		font-size: 1;
 		color: white;
 		text-align: center;
 	}
 
 	.button {
-		position: absolute;
-		top:585px;
-		left:635px;
+		margin: auto;
+		display: block;
 		background-color: white;
 		border:none;
 		padding: 10px 26px;
-		text-align: center;
 		text-decoration: none;
 		display: inline-block;
 		font-size: 14pt;
